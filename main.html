@@ -8,23 +8,25 @@
 
 <body>
 	<form> 
-	<input type="text" id="name" placeholder="Name"><br>
-		<input type="email" id="email" placeholder="Email"><br>
-		<input type="radio" id="gender_m" name="gender"> male
-		<input type="radio" id="gender_f" name="gender"> female
+		<label for="name"> Name
+	<input type="text" id="name" placeholder="Name"><br></label>
+		<label for="email"><input type="email" id="email" placeholder="Email"><br></label>
+		<label for="gender_m">gender <input type="radio" id="gender_m" name="gender"> male </label>
+	<label>	<input type="radio" id="gender_f" name="gender"> female </label>
 		<br>
-		<select id=""cars placeholder="--Please choose an option--" multiple>
+		<label for="cars"> cars you have
+		<select id="cars" placeholder="--Please choose an option--" multiple> </label>
 			<option> BMW</option>
 			<option> suzuki</option>
 			<option> tesla</option>
-			<option> mercedes</option>
+			<option> mercedes</option> 
 			
 		</select><br>
-		<input id="age" type="number" placeholder="Age"><br>
-		<input id="dob" type="date" ><br>
-		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br>
-		<input id="password" type="password" placeholder="Password"><br>
-		<input type="checkbox" id="tos"><br>
+		<label for="age">age<input id="age" type="number" placeholder="Age"> </label><br>
+		<label for="dob"> date of birth<input id="dob" type="date" ><br></label>
+		<label for="tel"> telephone<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br></label>
+		<label for="password"> password<input id="password" type="password" placeholder="Password"><br></label>
+		<label for="tos"><input type="checkbox" id="tos"> I agree to the TOS<br></label>
 		<input type="submit">
 	</form>
 	<!-- the entire body must be written by student -->
