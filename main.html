@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form> 
+	<form method="post"> 
 		<label for="name"> Name
 	<input type="text" id="name"  required="Yes" placeholder="Name"><br></label>
 		<label for="email"> email<input required="Yes"type="email" id="email" placeholder="Email"><br></label>
@@ -25,9 +25,9 @@
 		<label for="age">age<input id="age" type="number" placeholder="Age" required="Yes"> </label><br>
 		<label for="dob"> date of birth<input id="dob" type="date" required="Yes" ><br></label>
 		<label for="tel"> telephone<input type="tel" id="tel" placeholder="xxx-xxx-xxxx" required="No"><br></label>
-		<label for="password"> password<input id="password" type="password" placeholder="Password"><br></label>
+		<label for="password"> password<input id="password" type="password" required="Yes" placeholder="Password"><br></label>
 		<label for="tos"><input type="checkbox" id="tos"> I agree to the TOS<br></label>
-		<input type="submit">
+		<button type="submit"></button>
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
